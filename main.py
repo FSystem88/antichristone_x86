@@ -3,7 +3,16 @@ from StructService import Distribution_Service
 from config import attack
 
 attack_number_phone=Distribution_Service()
-os.system('clear');print('Author: t.me/antichristone')
+os.system('cls' if os.name=='nt' else 'clear')
+
+logo = '''
+ █▀▀█  █▄  █ ▀▀█▀▀ ▀█▀  █▀▀█  █  █  █▀▀█ ▀█▀  █▀▀▀█ ▀▀█▀▀ 
+ █▄▄█  █ █ █   █    █   █     █▀▀█  █▄▄▀  █   ▀▀▀▄▄   █   
+ █  █  █  ▀█   █   ▄█▄  █▄▄█  █  █  █  █ ▄█▄  █▄▄▄█   █  
+
+ Author: t.me/antichristone
+'''
+print(f"\033[31m {logo}")
 
 target=input('Phone: ')
 
@@ -21,4 +30,3 @@ while True:
     except Exception:
         pass
 
-#
