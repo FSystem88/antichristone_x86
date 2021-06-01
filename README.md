@@ -1,5 +1,19 @@
-## Antichrist Blog
+# Antichrist Blog
 Telegram - [Antichrist (Creator)](https://t.me/antichristone), subscription or life?
+
+## Install
+```
+sudo apt update
+sudo apt upgrade -y
+sudo apt install python3 python3-pip git -y
+pip3 install asyncio bs4 aiohttp requests
+git clone https://github.com/antichristone/antichristone_x86 Anti
+```
+Запуск
+```
+cd Anti
+python3 main.py
+```
 
 ## Start
 ```
