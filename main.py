@@ -10,11 +10,11 @@ logo = '''
  █▄▄█  █ █ █   █    █   █     █▀▀█  █▄▄▀  █   ▀▀▀▄▄   █   
  █  █  █  ▀█   █   ▄█▄  █▄▄█  █  █  █  █ ▄█▄  █▄▄▄█   █  
 
- Author: t.me/antichristone
+    Author: t.me/antichristone
 '''
 print(f"\033[31m {logo}")
 
-target=input('Phone: ')
+target=input('    Phone: ')
 
 try:
     attack_number_phone.phone(target)
@@ -29,4 +29,3 @@ while True:
         print(f"Query: {attack}")
     except Exception:
         pass
-
