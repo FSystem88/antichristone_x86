@@ -44,6 +44,9 @@ cd Anti
 python3 main.py
 ```
 
+## Install Windows 
+Download https://github.com/FSystem88/antichristone_x86/releases/download/1/ANTICHRIST.exe
+
 ## Start with Tor proxy
 ```
 apt install proxychains4 -y
