@@ -52,7 +52,7 @@ Download https://github.com/FSystem88/antichristone_x86/releases/download/1/ANTI
 apt install proxychains4 -y
 proxychains python3 main.py
 ```
-Инструкция по настройке [proxychains](https://ovnl.in/threads/759)
+Инструкция по настройке [proxychains](https://kali.tools/?p=2075)
 
 ## License
 **Mozilla Public License 2.0**
