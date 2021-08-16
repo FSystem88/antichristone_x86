@@ -21,7 +21,7 @@ Install iSH - https://apps.apple.com/ru/app/ish-shell/id1436902243
 ```apk update
 apk upgrade
 apk add git py3 py3-pip
-pip3 install bs4 requests aiohttp typing asyncio 
+pip3 install bs4 requests typing 
 git clone https://github.com/FSystem88/antichristone_x86 Anti
 ```
 Запуск
